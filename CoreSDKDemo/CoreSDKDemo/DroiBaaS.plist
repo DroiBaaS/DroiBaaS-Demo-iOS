@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict><key>AddInput</key><dict><key>num1</key><string>@DroiExposefloat</string><key>num2</key><string>@DroiExposefloat</string></dict><key>AddResult</key><dict><key>result</key><string>@DroiExposefloat</string></dict><key>Student</key><dict><key>age</key><string>@DroiExposeNSInteger</string><key>avatar</key><string>DroiFile</string><key>hobbies</key><string>@DroiExposeNSArray</string><key>name</key><string>@DroiExposeNSString</string></dict></dict></plist>
