@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+# platform:ios,'8.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DroiBaaSDemo' do
+    
+pod 'SDWebImage', '~> 3.8.1'
+pod 'MJRefresh','~> 3.1.9'
+pod 'MBProgressHUD'
+
+pod 'DroiPushSDK'
+pod 'DroiAnalyticsSDK'
+pod 'DroiOAuthSDK'
+pod 'DroiCoreSDK'
+pod 'DroiSelfupdateSDK'
+pod 'DroiFeedbackSDK'
+post_install do |installer|
+    require './Pods/DroiCoreSDK/scripts/postInstall.rb'
+    DroiCoreParser.installParser()
+end
+
+end
